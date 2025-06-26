@@ -4,7 +4,6 @@
     "label": "Research Associate",
     "image": "",
     "email": "jonas.kemnitzer.2@hof-university.de",
-    "phone": "(912) 123-4567",
     "url": "https://jkemnitzer.github.io/",
     "summary": "Researcher, Machine Learning Engineer with focus on robotics, large language models and real world applications",
     "location": {
@@ -23,8 +22,16 @@
       "url": "https://example.com",
       "startDate": "2023-08-01",
       "endDate": "Now",
-      "summary": "Conducting research in the field of deep learning, machine learning and robotics. Focus on AI integration in medium and small sized companies. Doing lectures for the faculty of computer science.",
-      "highlights": ["Published several papers on machine learning applications in information systems."]
+      "summary": "Research Group \"Intelligent and Learning Systems\" at the Institute for Information Systems at Hof University (iisys). Pioneering and researching new AI applications to address real-world challenges, with a focus on deep learning and generative AI. Developing innovative methods for robots to learn new tasks independently and cooperate better with humans.",
+      "highlights": ["Published several papers on deep learning applications in information systems."]
+    },
+    {
+      "name": "IBM Germany",
+      "position": "Intern",
+      "startDate": "2021-08-01",
+      "endDate": "2022-01-01",
+      "summary": "Implementation of common supervised and unsupervised machine learning algorithms for analysis, visualization, and forecasting purposes using IBM Cloud products for the AI lifecycle management and Python/Spark.",
+      "highlights": ["Programming a 'Pepper' robot using Node-RED and Javascript as well as the IBM IoT Platform for implementing the message processing algorithms between the devices."]
     }
   ],
   "volunteer": [
@@ -47,7 +54,7 @@
       "studyType": "Full Time",
       "startDate": "2021-03-01",
       "endDate": "2023-07-01",
-      "score": "1.3 (excellent)",
+      "score": "1.4 (excellent)",
       "courses": ["Machine Learning", "Deep Learning", "Artificial Intelligence", "Robotics", "Computer Vision"]
     },
     {
@@ -85,49 +92,49 @@
       "date": "2024-03-01",
       "issuer": "Standford University",
       "url": "https://www.coursera.org/account/accomplishments/specialization/KNKRJNRETJE4",
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-solid fa-certificate"
     },
     {
       "name": "Unity Essentials Pathway",
       "date": "2021-03-01",
       "issuer": "Unity",
       "url": "https://www.credly.com/badges/f5c1efcd-10cb-4fb5-8eac-a4a50b666a78?source=linked_in_profile",
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-solid fa-certificate"
     },
     {
       "name": "Machine Learning with Python",
       "date": "2020-03-01",
       "issuer": "IBM",
       "url": "https://www.credly.com/badges/97c95fb9-77ea-4b3b-ac29-f8c5a7c02109/linked_in_profile",
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-solid fa-certificate"
     },
     {
       "name": "Python for Data Science",
       "date": "2020-03-01",
       "issuer": "IBM",
       "url": "https://www.credly.com/badges/46f56a67-3fdd-4c33-97c0-b3f5d3f1f9ce/linked_in_profile",
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-solid fa-certificate"
     },
     {
       "name": "Watson Studio Essentials",
       "date": "2020-03-01",
       "issuer": "IBM",
       "url": "https://www.credly.com/badges/f70ab606-2aad-49b0-9af8-f9d21818568e/linked_in_profile",
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-solid fa-certificate"
     },
     {
       "name": "C# for Unity Game Development",
       "date": "2018-03-01",
       "issuer": "Lynda Learning",
       "url": "https://www.linkedin.com/learning/c-sharp-for-unity-game-development",
-      "icon": "fa-solid fa-tag"
+      "icon": "fa-solid fa-certificate"
     },
     {
       "name": "Unity 2D Scripting",
       "date": "2018-03-01",
       "issuer": "Lynda Learning",
       "url": "https://www.linkedin.com/learning/unity-2023-essential-training",
-      "icon": "fa-solid fa-envelope"
+      "icon": "fa-solid fa-certificate"
     }
   ],
   "publications": [
@@ -159,13 +166,11 @@
     "icon": "fa-solid fa-microchip",
     "keywords": [
       "Transformer Architectures",
+      "Large Language Models",
       "LLM Security",
-      "Prompt Injection Mitigation",
       "PyTorch",
-      "TensorFlow",
-      "Fine-tuning",
-      "CNNs",
-      "RNNs"
+      "Fine-tuning"
+
     ]
   },
   {
@@ -173,7 +178,7 @@
     "level": "Advanced",
     "icon": "fa-solid fa-warehouse",
     "keywords": [
-      "Quadruped Robotics (Unitree)",
+      "Quadruped Robotics",
       "Self-driving Vehicles",
       "Sensor Integration",
       "Real-time Systems"
@@ -197,10 +202,9 @@
     "icon": "fa-solid fa-terminal",
     "keywords": [
       "Python",
+      "Java",
       "C++",
-      "Dart",
-      "LaTeX",
-      "Bash"
+      "LaTeX"
     ]
   }
 ],
@@ -256,12 +260,46 @@
 ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "name": "Explainable AI (XAI)",
+      "summary": "Theoretical analysis as well as implementation of the Local Interpretable Model-agnostic Explanations (LIME) algorithm in the context of a classification problem for the Youtube Comments Spam Prediction Dataset.",
+      "highlights": ["Model Interpretability", "Feature Importance", "LIME Algorithm"],
+      "startDate": "2021-09-01",
+      "endDate": "2021-12-01"
+    },
+    {
+      "name": "Fullstack App",
+      "summary": "Analysis and implementation of a full-stack timetabling software. The program logic was implemented using Java and the Java Spring Framework for embedded REST functionalities, in-memory databases and profile management. Additionally, the Lombok library was integrated. The Angular web framework was used for the front end. Furthermore, technologies such as Docker and Liquibase were integrated for modularization and database versioning.",
+      "highlights": ["Java", "Spring Framework", "Angular", "Docker", "Liquibase"],
+      "startDate": "2021-09-01",
+      "endDate": "2021-12-01"
+    },
+    {
+      "name": "RESTful Webservice",
+      "summary": "Ideation and implementation of a RESTful Webservice using Java and the Jersey RESTful Framework. A range of functionality such as Caching, Hypermedia, and Databases was used to build a modern solution of a web service.",
+      "highlights": ["Java", "Jersey", "REST", "Caching", "Hypermedia"],
+      "startDate": "2020-11-01",
+      "endDate": "2021-02-01"
+    },
+    {
+      "name": "Data Analysis",
+      "summary": "Analysis and evaluation of Germany-wide migraine data using R as part of a research project called \"Mira\" of the Institute for Information Systems at Hof University of Applied Sciences. The project focused on the development of a web application for the visualization of migraine data.",
+      "highlights": ["R", "Data Visualization", "Data Analysis"],
+      "startDate": "2019-02-01",
+      "endDate": "2021-05-01"
+    },
+    {
+      "name": "Design and Implementation of a VR-System",
+      "summary": "This project was part of the course Virtual-Reality Applications. The goal was to design and implement a prototype VR environment by using modern VR technologies like tracking devices and popular VR headsets. The environment was created using Blender.",
+      "highlights": ["Blender", "VR", "Prototyping"],
+      "startDate": "2018-06-01",
+      "endDate": "2018-09-01"
+    },
+    {
+      "name": "Java Entry Level Software Development",
+      "summary": "This was a small project for the Course Software Engineering Internship. I created a small application that could manage time and schedules for employees. The backend was purely based on Java code. The frontend was coded using the JavaScene builder included in Eclipse IDE",
+      "highlights": ["Java", "JavaScene", "Eclipse IDE"],
       "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "endDate": "2018-03-01"
     }
   ]
 }
