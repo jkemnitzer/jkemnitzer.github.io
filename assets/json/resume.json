@@ -141,7 +141,7 @@
     {
       "name": "Enhhancing Fitness Visualization: Application and Efficacy of Realistic Inpainting using Diffusion Models",
       "publisher": "SPIE",
-      "releaseDate": "TBA",
+      "releaseDate": "2025",
       "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
       "summary": "In this paper we present a stable-diffusion based zero-shot approach to realistically transform the image of a human body into a more fit version of that depicted person. Therefore we combine a modified stable diffusion model with inpainting techniques and incorporated constraints. We introduce a prototype which allows users to upload a photo and visualize a more fit version of themselves. We evaluated our approach in various experiments and focused on the applicability and effectiveness of these techniques, with attention to gender-specific results.",
       "icon": "fa-solid fa-book"
