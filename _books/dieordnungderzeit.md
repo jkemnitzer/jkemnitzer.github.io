@@ -5,7 +5,7 @@ author: Carlo Rovelli
 cover: assets/img/book_covers/time.jpg
 olid: OL26497300M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780241292525 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
-categories: Science Engineering Nonfiction Architecture Physics Design Technology Education Civil Engineering
+categories: Science Nonfiction Physics Technology Education
 tags: top-100
 buy_link: https://openlibrary.org/works/OL17870579W/L'ordine_del_tempo?edition=key:/books/OL26497300M#editions-list
 started: 2025-01-13
