@@ -393,7 +393,12 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-structures-or-why-things-don-39-t-fall-down",
+      },{id: "books-the-order-of-time",
+          title: 'The Order of Time',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dieordnungderzeit/";
+            },},{id: "books-structures-or-why-things-don-39-t-fall-down",
           title: 'Structures; Or Why Things Don&amp;#39;t Fall Down',
           description: "",
           section: "Books",handler: () => {
