@@ -398,11 +398,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/dieordnungderzeit/";
+            },},{id: "books-sapiens-a-brief-history-of-humankind",
+          title: 'Sapiens: A Brief History of Humankind',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/sapiens/";
             },},{id: "books-structures-or-why-things-don-39-t-fall-down",
           title: 'Structures; Or Why Things Don&amp;#39;t Fall Down',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/structures/";
+            },},{id: "books-über-dem-orinoco-scheint-der-mond",
+          title: 'Über dem Orinoco scheint der Mond',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/uber-dem-orinoco-scheint-der-mond/";
+            },},{id: "books-understanding-deep-learning",
+          title: 'Understanding Deep Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/understanding-deep-learning/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
