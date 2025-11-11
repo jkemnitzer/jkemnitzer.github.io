@@ -2,6 +2,7 @@
 layout: book-review
 title: Understanding Deep Learning
 author: Simon J.D. Prince
+cover: assets/img/book_covers/deeplearning.jpg
 olid: OL49003504M
 isbn: 9781009356224
 categories: Science Technology Education AI Deep Learning
@@ -14,5 +15,4 @@ stars: 5
 goodreads_review:
 status: Reading
 ---
-
 A comprehensive and accessible introduction to the fundamental concepts and techniques of deep learning, from the basics of machine learning to the latest models and applications.
