@@ -393,7 +393,12 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-order-of-time",
+      },{id: "books-how-to-avoid-a-climate-disaster-the-solutions-we-have-and-the-breakthroughs-we-need",
+          title: 'How to Avoid a Climate Disaster The Solutions We Have and the Breakthroughs...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/climate/";
+            },},{id: "books-the-order-of-time",
           title: 'The Order of Time',
           description: "",
           section: "Books",handler: () => {
