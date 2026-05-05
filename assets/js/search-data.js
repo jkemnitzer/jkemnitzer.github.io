@@ -393,16 +393,61 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-how-to-avoid-a-climate-disaster-the-solutions-we-have-and-the-breakthroughs-we-need",
+      },{id: "books-ai-engineering-building-applications-with-foundation-models",
+          title: 'AI Engineering: Building Applications with Foundation Models',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/ai-engineering/";
+            },},{id: "books-build-a-large-language-model-from-scratch",
+          title: 'Build a Large Language Model (From Scratch)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/build-a-large-language-model/";
+            },},{id: "books-building-llms-for-production-enhancing-llm-abilities-and-reliability-with-prompting-fine-tuning-and-rag",
+          title: 'Building LLMs for Production: Enhancing LLM Abilities and Reliability with Prompting, Fine-Tuning, and...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/building-llms-for-production/";
+            },},{id: "books-how-to-avoid-a-climate-disaster-the-solutions-we-have-and-the-breakthroughs-we-need",
           title: 'How to Avoid a Climate Disaster The Solutions We Have and the Breakthroughs...',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/climate/";
+            },},{id: "books-deep-learning",
+          title: 'Deep Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/deep-learning-goodfellow/";
+            },},{id: "books-designing-machine-learning-systems-an-iterative-process-for-production-ready-applications",
+          title: 'Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/designing-machine-learning-systems/";
             },},{id: "books-the-order-of-time",
           title: 'The Order of Time',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/dieordnungderzeit/";
+            },},{id: "books-hands-on-large-language-models-language-understanding-and-generation",
+          title: 'Hands-On Large Language Models: Language Understanding and Generation',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/hands-on-large-language-models/";
+            },},{id: "books-llm-engineer-39-s-handbook",
+          title: 'LLM Engineer&amp;#39;s Handbook',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/llm-engineers-handbook/";
+            },},{id: "books-mathematics-for-machine-learning",
+          title: 'Mathematics for Machine Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mathematics-for-machine-learning/";
+            },},{id: "books-prompt-engineering-for-llms-the-art-and-science-of-building-large-language-model-based-applications",
+          title: 'Prompt Engineering for LLMs: The Art and Science of Building Large Language Model-Based...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/prompt-engineering-for-llms/";
             },},{id: "books-sapiens-a-brief-history-of-humankind",
           title: 'Sapiens: A Brief History of Humankind',
           description: "",
