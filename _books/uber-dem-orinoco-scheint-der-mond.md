@@ -2,7 +2,7 @@
 layout: book-review
 title: Über dem Orinoco scheint der Mond
 author: Harald Lesch
-olid: OL26299105M
+cover: assets/img/book_covers/orinoco.jpeg
 isbn: 9783442158382
 categories: Science Astronomy Non-fiction
 tags:
