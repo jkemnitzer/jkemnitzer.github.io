@@ -2,96 +2,90 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Jonas Kemnitzer
+    - name: Location
+      value: Feilitzsch, Germany
     - name: Languages
-      value: English, German
+      value: German (native), English (fluent), Korean (conversational)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.Sc. in Computer Science
+      institution: UAS Hof, Hof, Germany
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Modern Software Architecture
+        - Information Systems Security
+        - Data Mining & Machine Learning
+        - IT & Data Protection Law
+        - Deep Learning Architectures
+    - title: Exchange Semester
+      institution: Keimyung University, Daegu, South Korea
+      year: 2019
+    - title: B.Sc. in Computer Science
+      institution: UAS Hof, Hof, Germany
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Software Engineering
+        - Algorithms & Data-Structures
+        - Math & Statistics for CS
+        - Applied Machine Learning
+        - RESTful Web Services
+        - Robotics & IT-Security
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Associate & PhD-track Researcher
+      institution: IISYS at Hof University, Hof, Germany
+      year: 2023 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Researched and developed multimodal AI systems within the Intelligent and Learning Systems group, covering the full stack from multi-GPU model training and fine-tuning to production inference deployment via vLLM and Ollama.
+        - Bridged academic research and industry application by transferring AI solutions into active production environments for small and medium-sized German businesses, translating published findings into practical, deployable systems.
+        - Conducted research in mechanistic interpretability, applying circuit analysis techniques to locate and characterise attention heads causally responsible for prompt injection in instruction-tuned LLMs.
+    - title: AI Prototype Engineer Intern
+      institution: IBM Germany, Munich, Germany
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Developed anomaly detection pipelines on large-scale infrastructure datasets for road and bridge safety analysis using Python and Apache Spark on IBM Cloud.
+        - Designed and deployed a customer-facing conversational AI system on a Pepper robot, integrating IBM Watson Assistant with live APIs (weather, news) and custom dialogue flows for lobby guest interaction.
+        - Collaborated with solution architects to prototype and refine customer-oriented AI demos across multiple client engagements.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Technical
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, PyTorch, OOP
+        - Git, Software Engineering
+        - SQL-DBs, Vector-DBs
+        - vLLM, Ollama, MLFlow
+        - Docker, Hugging Face Ecosystem
+        - LaTeX, TransformerLens
+        - Proxmox (VMs, LXC, Network)
+        - Self-hosted Infrastructure
+    - title: Soft Skills
       items:
-        - Description 1.
-        - Description 2.
+        - Agile Workflows
+        - Trilingual (German, English, Korean)
+        - Cross-Team Working
+        - Analytical Thinking & Adaptability
 
-- title: Other Interests
+- title: Projects
+  type: time_table
+  contents:
+    - title: Explainable AI (LIME)
+      year: Research
+      description: Implemented and analysed the Local Interpretable Model-agnostic Explanations (LIME) algorithm in Python, evaluating input parameter sensitivity on the YouTube Comments Spam Dataset to reduce data complexity through systematic parameter optimisation.
+    - title: Sentiment Analysis using NLP
+      year: Research
+      description: Built a proof-of-concept sentiment analysis pipeline for an online retail use case using Python, TensorFlow, and Keras, benchmarking multiple frameworks for performance trade-offs and refactoring the codebase to reduce overall runtime overhead.
+
+- title: Clubs & Activities
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Students Union
+    - Intercultural Teacher
+    - Freshman Mentor (Newcomer Days)
+    - Tennis Trainer (TC Hof)
