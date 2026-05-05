@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Jonas Kemnitzer",
-    "label": "Research Associate",
+    "label": "Research Associate & PhD-track Researcher",
     "image": "",
-    "email": "jonas.kemnitzer.2@hof-university.de",
+    "email": "jonaskemnitzer@pm.me",
     "url": "https://jkemnitzer.github.io/",
-    "summary": "Researcher, Machine Learning Engineer with focus on robotics, large language models and real world applications",
+    "summary": "PhD-track researcher at IISYS Hof University focusing on LLM security, mechanistic interpretability, and multimodal AI systems. Experienced in bridging academic research with industry deployment for SMEs.",
     "location": {
-      "address": "Alfons-Goppel-Platz 1",
-      "postalCode": "95028",
-      "city": "Hof",
+      "address": "Waldstr. 1",
+      "postalCode": "95183",
+      "city": "Feilitzsch",
       "countryCode": "DE",
       "region": "Bavaria"
     },
@@ -17,88 +17,100 @@
   },
   "work": [
     {
-      "name": "Institute for Information Systems at Hof University of Applied Sciences",
-      "position": "Research Associate",
-      "url": "https://example.com",
+      "name": "IISYS at Hof University of Applied Sciences",
+      "position": "Research Associate & PhD-track Researcher",
+      "url": "https://www.iisys.de",
       "startDate": "2023-08-01",
-      "endDate": "Now",
-      "summary": "Research Group \"Intelligent and Learning Systems\" at the Institute for Information Systems at Hof University (iisys). Pioneering and researching new AI applications to address real-world challenges, with a focus on deep learning and generative AI. Developing innovative methods for robots to learn new tasks independently and cooperate better with humans.",
-      "highlights": ["Published several papers on deep learning applications in information systems."]
+      "endDate": "",
+      "summary": "Researched and developed multimodal AI systems within the Intelligent and Learning Systems group, covering the full stack from multi-GPU model training and fine-tuning to production inference deployment.",
+      "highlights": [
+        "Bridged academic research and industry application by transferring AI solutions into active production environments for small and medium-sized German businesses.",
+        "Conducted research in mechanistic interpretability, applying circuit analysis techniques to locate and characterise attention heads causally responsible for prompt injection in instruction-tuned LLMs."
+      ]
     },
     {
       "name": "IBM Germany",
-      "position": "Intern",
-      "startDate": "2021-08-01",
-      "endDate": "2022-01-01",
-      "summary": "Implementation of common supervised and unsupervised machine learning algorithms for analysis, visualization, and forecasting purposes using IBM Cloud products for the AI lifecycle management and Python/Spark.",
-      "highlights": ["Programming a 'Pepper' robot using Node-RED and Javascript as well as the IBM IoT Platform for implementing the message processing algorithms between the devices."]
+      "position": "AI Prototype Engineer Intern",
+      "startDate": "2020-04-01",
+      "endDate": "2020-08-01",
+      "summary": "Developed anomaly detection pipelines on large-scale infrastructure datasets for road and bridge safety analysis using Python and Apache Spark on IBM Cloud.",
+      "highlights": [
+        "Designed and deployed a customer-facing conversational AI system on a Pepper robot, integrating IBM Watson Assistant with live APIs and custom dialogue flows for lobby guest interaction.",
+        "Collaborated with solution architects to prototype and refine customer-oriented AI demos across multiple client engagements."
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Student Council of Hof University of Applied Sciences",
+      "organization": "Students Union, Hof University of Applied Sciences",
       "location": "Hof, Germany",
       "position": "Student Representative",
-      "url": "https://www.hof-university.de/studium/informationen/studentische-initiativen.html",
       "startDate": "2016-10-01",
       "endDate": "2023-07-01",
-      "summary": "Act as a student representative for the faculty of computer science. Organize events and activities for students, and represent their interests in meetings with faculty and administration."
+      "summary": "Represented faculty of computer science students, organised events, and acted as a freshman mentor during newcomer days."
+    },
+    {
+      "organization": "TC Hof",
+      "location": "Hof, Germany",
+      "position": "Tennis Trainer",
+      "startDate": "2016-01-01",
+      "endDate": "",
+      "summary": "Tennis coach and trainer."
     }
   ],
   "education": [
     {
       "institution": "Hof University of Applied Sciences",
       "location": "Hof, Germany",
-      "url": "www.hof-university.de",
-      "area": "Master of Science in Computer Science",
-      "studyType": "Full Time",
+      "url": "https://www.hof-university.de",
+      "area": "Computer Science",
+      "studyType": "M.Sc.",
       "startDate": "2021-03-01",
-      "endDate": "2023-07-01",
+      "endDate": "2023-08-01",
       "score": "1.4 (excellent)",
-      "courses": ["Machine Learning", "Deep Learning", "Artificial Intelligence", "Robotics", "Computer Vision"]
+      "courses": [
+        "Modern Software Architecture",
+        "Information Systems Security",
+        "Data Mining & Machine Learning",
+        "IT & Data Protection Law",
+        "Deep Learning Architectures"
+      ]
     },
     {
       "institution": "Keimyung University",
       "location": "Daegu, South Korea",
       "url": "https://www.kmu.ac.kr",
       "area": "Exchange Semester in Computer Science",
-      "studyType": "Full Time",
-      "startDate": "2018-05-01",
-      "endDate": "2018-12-01",
+      "studyType": "Exchange",
+      "startDate": "2019-03-01",
+      "endDate": "2019-09-01",
       "score": "1.0 (excellent)",
-      "courses": ["Korean Language, Java Programming, VR Application Development"]
+      "courses": ["Korean Language", "Java Programming", "VR Application Development"]
     },
     {
       "institution": "Hof University of Applied Sciences",
       "location": "Hof, Germany",
-      "url": "www.hof-university.de",
-      "area": "Bachelor of Science in Computer Science",
-      "studyType": "Full Time",
+      "url": "https://www.hof-university.de",
+      "area": "Computer Science",
+      "studyType": "B.Sc.",
       "startDate": "2016-03-01",
-      "endDate": "2021-02-28",
+      "endDate": "2021-03-01",
       "courses": [
-        "Algorithms and Data Structures",
         "Software Engineering",
-        "Database Systems",
-        "Web Development",
-        "Mathematics for Computer Science",
-        "Operating Systems, IT Security"
+        "Algorithms & Data-Structures",
+        "Math & Statistics for CS",
+        "Applied Machine Learning",
+        "RESTful Web Services",
+        "Robotics & IT-Security"
       ]
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
+      "name": "Machine Learning Specialization",
       "date": "2024-03-01",
-      "issuer": "Standford University",
+      "issuer": "Stanford University / Coursera",
       "url": "https://www.coursera.org/account/accomplishments/specialization/KNKRJNRETJE4",
-      "icon": "fa-solid fa-certificate"
-    },
-    {
-      "name": "Unity Essentials Pathway",
-      "date": "2021-03-01",
-      "issuer": "Unity",
-      "url": "https://www.credly.com/badges/f5c1efcd-10cb-4fb5-8eac-a4a50b666a78?source=linked_in_profile",
       "icon": "fa-solid fa-certificate"
     },
     {
@@ -121,93 +133,88 @@
       "issuer": "IBM",
       "url": "https://www.credly.com/badges/f70ab606-2aad-49b0-9af8-f9d21818568e/linked_in_profile",
       "icon": "fa-solid fa-certificate"
-    },
-    {
-      "name": "C# for Unity Game Development",
-      "date": "2018-03-01",
-      "issuer": "Lynda Learning",
-      "url": "https://www.linkedin.com/learning/c-sharp-for-unity-game-development",
-      "icon": "fa-solid fa-certificate"
-    },
-    {
-      "name": "Unity 2D Scripting",
-      "date": "2018-03-01",
-      "issuer": "Lynda Learning",
-      "url": "https://www.linkedin.com/learning/unity-2023-essential-training",
-      "icon": "fa-solid fa-certificate"
     }
   ],
   "publications": [
     {
-      "name": "Enhhancing Fitness Visualization: Application and Efficacy of Realistic Inpainting using Diffusion Models",
+      "name": "Beyond shared embedding spaces: Towards LLM architectures with explicit authority control for prompt security",
+      "publisher": "IEEE",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Proposes LLM architectures with explicit authority control mechanisms to defend against prompt injection attacks in instruction-tuned models. To appear at the 2026 International Conference on Advances in Artificial Intelligence and Machine Learning (AAIML), Tokyo, Japan.",
+      "icon": "fa-solid fa-book"
+    },
+    {
+      "name": "Enhancing Fitness Visualization: Application and Efficacy of Realistic Inpainting Techniques using Diffusion Models",
       "publisher": "SPIE",
       "releaseDate": "2025",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "In this paper we present a stable-diffusion based zero-shot approach to realistically transform the image of a human body into a more fit version of that depicted person. Therefore we combine a modified stable diffusion model with inpainting techniques and incorporated constraints. We introduce a prototype which allows users to upload a photo and visualize a more fit version of themselves. We evaluated our approach in various experiments and focused on the applicability and effectiveness of these techniques, with attention to gender-specific results.",
+      "url": "https://doi.org/10.1117/12.3065318",
+      "summary": "Presents a stable-diffusion based zero-shot approach to realistically transform the image of a human body into a more fit version of that depicted person, combining a modified stable diffusion model with inpainting techniques and incorporated constraints.",
       "icon": "fa-solid fa-book"
     }
   ],
-"skills": [
-  {
-    "name": "Machine Learning",
-    "level": "Advanced",
-    "icon": "fa-solid fa-brain",
-    "keywords": [
-      "Supervised Learning",
-      "Unsupervised Learning",
-      "Scikit-learn",
-      "Model Evaluation",
-      "Data Preprocessing"
-    ]
-  },
-  {
-    "name": "Deep Learning",
-    "level": "Advanced",
-    "icon": "fa-solid fa-microchip",
-    "keywords": [
-      "Transformer Architectures",
-      "Large Language Models",
-      "LLM Security",
-      "PyTorch",
-      "Fine-tuning"
-
-    ]
-  },
-  {
-    "name": "Robotics",
-    "level": "Advanced",
-    "icon": "fa-solid fa-warehouse",
-    "keywords": [
-      "Quadruped Robotics",
-      "Self-driving Vehicles",
-      "Sensor Integration",
-      "Real-time Systems"
-    ]
-  },
-  {
-    "name": "Software Engineering",
-    "level": "Intermediate",
-    "icon": "fa-solid fa-code",
-    "keywords": [
-      "Prototyping",
-      "Agile Development",
-      "Flutter (UI Prototyping)",
-      "Git",
-      "CI/CD Basics"
-    ]
-  },
-  {
-    "name": "Programming Languages",
-    "level": "Advanced",
-    "icon": "fa-solid fa-terminal",
-    "keywords": [
-      "Python",
-      "Java",
-      "C++",
-      "LaTeX"
-    ]
-  }
-],
+  "skills": [
+    {
+      "name": "Machine Learning & Deep Learning",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "PyTorch",
+        "Transformer Architectures",
+        "Large Language Models",
+        "Fine-tuning",
+        "MLFlow",
+        "Hugging Face Ecosystem"
+      ]
+    },
+    {
+      "name": "LLM Inference & Deployment",
+      "level": "Advanced",
+      "icon": "fa-solid fa-server",
+      "keywords": [
+        "vLLM",
+        "Ollama",
+        "Docker",
+        "Multi-GPU Training",
+        "Self-hosted Infrastructure",
+        "Proxmox (VMs, LXC, Network)"
+      ]
+    },
+    {
+      "name": "Mechanistic Interpretability",
+      "level": "Advanced",
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "TransformerLens",
+        "Circuit Analysis",
+        "Attention Head Analysis",
+        "Prompt Injection Research"
+      ]
+    },
+    {
+      "name": "Data & Databases",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-database",
+      "keywords": [
+        "SQL Databases",
+        "Vector Databases",
+        "Data Mining",
+        "Apache Spark"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "OOP",
+        "Git",
+        "LaTeX",
+        "Agile Workflows"
+      ]
+    }
+  ],
   "languages": [
     {
       "language": "German",
@@ -225,81 +232,50 @@
       "icon": ""
     }
   ],
-"interests": [
-  {
-    "name": "Physics",
-    "icon": "fa-solid fa-atom",
-    "keywords": [
-      "Classical Mechanics",
-      "Electromagnetism",
-      "Relativity",
-      "Scientific Curiosity"
-    ]
-  },
-  {
-    "name": "Sustainability",
-    "icon": "fa-solid fa-leaf",
-    "keywords": [
-      "Climate Neutrality",
-      "Green Technology",
-      "Sustainable Systems",
-      "Responsible Innovation"
-    ]
-  },
-  {
-    "name": "Game Development",
-    "icon": "fa-solid fa-gamepad",
-    "keywords": [
-      "Pixel Art Games",
-      "Medieval Strategy",
-      "Unreal Engine",
-      "Prototyping",
-      "Indie Game Design"
-    ]
-  }
-],
+  "interests": [
+    {
+      "name": "Physics & Cosmology",
+      "icon": "fa-solid fa-atom",
+      "keywords": [
+        "Classical Mechanics",
+        "Electromagnetism",
+        "Relativity",
+        "Scientific Curiosity"
+      ]
+    },
+    {
+      "name": "Sustainability",
+      "icon": "fa-solid fa-leaf",
+      "keywords": [
+        "Climate Neutrality",
+        "Green Technology",
+        "Sustainable Systems",
+        "Responsible Innovation"
+      ]
+    },
+    {
+      "name": "Tennis",
+      "icon": "fa-solid fa-baseball",
+      "keywords": [
+        "Coaching",
+        "Competitive Play"
+      ]
+    }
+  ],
   "projects": [
     {
-      "name": "Explainable AI (XAI)",
-      "summary": "Theoretical analysis as well as implementation of the Local Interpretable Model-agnostic Explanations (LIME) algorithm in the context of a classification problem for the Youtube Comments Spam Prediction Dataset.",
-      "highlights": ["Model Interpretability", "Feature Importance", "LIME Algorithm"],
+      "name": "Explainable AI (LIME)",
+      "summary": "Implemented and analysed the Local Interpretable Model-agnostic Explanations (LIME) algorithm in Python, evaluating input parameter sensitivity on the YouTube Comments Spam Dataset to reduce data complexity through systematic parameter optimisation.",
+      "highlights": ["Model Interpretability", "Feature Importance", "LIME Algorithm", "Python"],
       "startDate": "2021-09-01",
       "endDate": "2021-12-01"
     },
     {
-      "name": "Fullstack App",
-      "summary": "Analysis and implementation of a full-stack timetabling software. The program logic was implemented using Java and the Java Spring Framework for embedded REST functionalities, in-memory databases and profile management. Additionally, the Lombok library was integrated. The Angular web framework was used for the front end. Furthermore, technologies such as Docker and Liquibase were integrated for modularization and database versioning.",
-      "highlights": ["Java", "Spring Framework", "Angular", "Docker", "Liquibase"],
-      "startDate": "2021-09-01",
-      "endDate": "2021-12-01"
-    },
-    {
-      "name": "RESTful Webservice",
-      "summary": "Ideation and implementation of a RESTful Webservice using Java and the Jersey RESTful Framework. A range of functionality such as Caching, Hypermedia, and Databases was used to build a modern solution of a web service.",
-      "highlights": ["Java", "Jersey", "REST", "Caching", "Hypermedia"],
-      "startDate": "2020-11-01",
-      "endDate": "2021-02-01"
-    },
-    {
-      "name": "Data Analysis",
-      "summary": "Analysis and evaluation of Germany-wide migraine data using R as part of a research project called \"Mira\" of the Institute for Information Systems at Hof University of Applied Sciences. The project focused on the development of a web application for the visualization of migraine data.",
-      "highlights": ["R", "Data Visualization", "Data Analysis"],
-      "startDate": "2019-02-01",
-      "endDate": "2021-05-01"
-    },
-    {
-      "name": "Design and Implementation of a VR-System",
-      "summary": "This project was part of the course Virtual-Reality Applications. The goal was to design and implement a prototype VR environment by using modern VR technologies like tracking devices and popular VR headsets. The environment was created using Blender.",
-      "highlights": ["Blender", "VR", "Prototyping"],
-      "startDate": "2018-06-01",
-      "endDate": "2018-09-01"
-    },
-    {
-      "name": "Java Entry Level Software Development",
-      "summary": "This was a small project for the Course Software Engineering Internship. I created a small application that could manage time and schedules for employees. The backend was purely based on Java code. The frontend was coded using the JavaScene builder included in Eclipse IDE",
-      "highlights": ["Java", "JavaScene", "Eclipse IDE"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-03-01"
+      "name": "Sentiment Analysis using NLP",
+      "summary": "Built a proof-of-concept sentiment analysis pipeline for an online retail use case using Python, TensorFlow, and Keras, benchmarking multiple frameworks for performance trade-offs and refactoring the codebase to reduce overall runtime overhead.",
+      "highlights": ["Python", "TensorFlow", "Keras", "NLP", "Benchmarking"],
+      "startDate": "2021-03-01",
+      "endDate": "2021-06-01"
     }
   ]
 }
