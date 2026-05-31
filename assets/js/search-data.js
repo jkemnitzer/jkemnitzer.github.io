@@ -479,7 +479,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-mechinterp-injection-suite",
+          title: 'mechinterp-injection-suite',
+          description: "A mechanistic interpretability pipeline for identifying attention-head circuits causally responsible for prompt injection in instruction-tuned LLMs. Supports 9+ model architectures including Llama, Gemma, Mistral, Qwen, and Phi.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mechinterp-injection-suite/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
