@@ -22,10 +22,12 @@
       "url": "https://www.iisys.de",
       "startDate": "2023-08-01",
       "endDate": "",
-      "summary": "Researched and developed multimodal AI systems within the Intelligent and Learning Systems group, covering the full stack from multi-GPU model training and fine-tuning to production inference deployment.",
+      "summary": "Researched and developed multimodal AI systems within the Intelligent and Learning Systems group, covering the full stack from multi-GPU model training and fine-tuning to production inference deployment via vLLM and Ollama.",
       "highlights": [
         "Bridged academic research and industry application by transferring AI solutions into active production environments for small and medium-sized German businesses.",
-        "Conducted research in mechanistic interpretability, applying circuit analysis techniques to locate and characterise attention heads causally responsible for prompt injection in instruction-tuned LLMs."
+        "Built a multi-GPU inference stack with Proxmox GPU passthrough, CUDA environment configuration, and tensor-parallel LLM serving via vLLM. Benchmarked quantization schemes (bitsandbytes INT4/INT8, AWQ, GPTQ) across precision–performance tradeoffs.",
+        "Profiled inference at the CUDA kernel level with NVIDIA Nsight Systems and torch.profiler; analysed KV cache memory footprints under PagedAttention across attention variants (MHA, GQA, MQA). Fine-tuned models with LoRA across multiple GPUs using DDP and FSDP via Hugging Face Accelerate; built evaluation pipelines with lm-evaluation-harness.",
+        "Conducted research in mechanistic interpretability, applying circuit analysis techniques to locate and characterise attention heads causally responsible for prompt injection in instruction-tuned LLMs (TransformerLens, activation patching, direct logit attribution)."
       ]
     },
     {
@@ -263,6 +265,14 @@
     }
   ],
   "projects": [
+    {
+      "name": "mechinterp-injection-suite",
+      "summary": "A mechanistic interpretability pipeline for identifying attention-head circuits causally responsible for prompt injection in instruction-tuned LLMs. Implements a 14-step analysis — from calibration through circuit classification — with cross-model support for Llama, Gemma, Mistral, Qwen, Phi, and more.",
+      "highlights": ["TransformerLens", "Activation Patching", "Circuit Analysis", "Prompt Injection", "PyTorch", "Hugging Face"],
+      "startDate": "2024-01-01",
+      "endDate": "",
+      "url": "https://github.com/jkemnitzer/mechinterp-injection-suite"
+    },
     {
       "name": "Explainable AI (LIME)",
       "summary": "Implemented and analysed the Local Interpretable Model-agnostic Explanations (LIME) algorithm in Python, evaluating input parameter sensitivity on the YouTube Comments Spam Dataset to reduce data complexity through systematic parameter optimisation.",
