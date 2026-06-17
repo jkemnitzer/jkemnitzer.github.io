@@ -393,11 +393,36 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-ai-engineering-building-applications-with-foundation-models",
+      },{id: "books-invader-agricola-1",
+          title: 'Invader (Agricola #1)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/agricola-invader/";
+            },},{id: "books-ai-engineering-building-applications-with-foundation-models",
           title: 'AI Engineering: Building Applications with Foundation Models',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/ai-engineering/";
+            },},{id: "books-the-art-of-problem-solving-volume-1-the-basics",
+          title: 'The Art of Problem Solving, Volume 1: The Basics',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/art-of-problem-solving-vol1/";
+            },},{id: "books-being-ecological",
+          title: 'Being Ecological',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/being-ecological/";
+            },},{id: "books-boredom",
+          title: 'Boredom',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/boredom-moravia/";
+            },},{id: "books-braiding-sweetgrass-indigenous-wisdom-scientific-knowledge-and-the-teachings-of-plants",
+          title: 'Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge, and the Teachings of Plants',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/braiding-sweetgrass/";
             },},{id: "books-build-a-large-language-model-from-scratch",
           title: 'Build a Large Language Model (From Scratch)',
           description: "",
@@ -413,26 +438,66 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/climate/";
+            },},{id: "books-deep-ecology-for-the-twenty-first-century-readings-on-the-philosophy-and-practice-of-the-new-environmentalism",
+          title: 'Deep Ecology for the Twenty-First Century: Readings on the Philosophy and Practice of...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/deep-ecology-twenty-first-century/";
             },},{id: "books-deep-learning",
           title: 'Deep Learning',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/deep-learning-goodfellow/";
+            },},{id: "books-der-graf-von-monte-christo",
+          title: 'Der Graf von Monte Christo',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/der-graf-von-monte-christo/";
             },},{id: "books-designing-machine-learning-systems-an-iterative-process-for-production-ready-applications",
           title: 'Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/designing-machine-learning-systems/";
+            },},{id: "books-die-gesetze-von-liebe-und-logik",
+          title: 'Die Gesetze von Liebe und Logik',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/die-gesetze-von-liebe-und-logik/";
             },},{id: "books-the-order-of-time",
           title: 'The Order of Time',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/dieordnungderzeit/";
+            },},{id: "books-ecopsychology-restoring-the-earth-healing-the-mind",
+          title: 'Ecopsychology: Restoring the Earth, Healing the Mind',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/ecopsychology/";
+            },},{id: "books-either-or-a-fragment-of-life",
+          title: 'Either/Or: A Fragment of Life',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/either-or-kierkegaard/";
+            },},{id: "books-gaia-a-new-look-at-life-on-earth",
+          title: 'Gaia: A New Look at Life on Earth',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/gaia-lovelock/";
+            },},{id: "books-gödel-escher-bach-an-eternal-golden-braid",
+          title: 'Gödel, Escher, Bach: An Eternal Golden Braid',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/godel-escher-bach/";
             },},{id: "books-hands-on-large-language-models-language-understanding-and-generation",
           title: 'Hands-On Large Language Models: Language Understanding and Generation',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/hands-on-large-language-models/";
+            },},{id: "books-the-interpretation-of-dreams",
+          title: 'The Interpretation of Dreams',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/interpretation-of-dreams/";
             },},{id: "books-llm-engineer-39-s-handbook",
           title: 'LLM Engineer&amp;#39;s Handbook',
           description: "",
@@ -458,6 +523,31 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/structures/";
+            },},{id: "books-the-civil-war",
+          title: 'The Civil War',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-civil-war-caesar/";
+            },},{id: "books-the-histories",
+          title: 'The Histories',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-histories-herodotus/";
+            },},{id: "books-the-odyssey",
+          title: 'The Odyssey',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-odyssey-homer/";
+            },},{id: "books-the-republic",
+          title: 'The Republic',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-republic-plato/";
+            },},{id: "books-thinking-in-systems-a-primer",
+          title: 'Thinking In Systems: A Primer',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/thinking-in-systems/";
             },},{id: "books-über-dem-orinoco-scheint-der-mond",
           title: 'Über dem Orinoco scheint der Mond',
           description: "",
@@ -468,6 +558,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/understanding-deep-learning/";
+            },},{id: "books-what-i-talk-about-when-i-talk-about-running",
+          title: 'What I Talk About When I Talk About Running',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/what-i-talk-about-when-i-talk-about-running/";
+            },},{id: "books-wie-die-welt-denkt-eine-globale-geschichte-der-philosophie",
+          title: 'Wie die Welt denkt: Eine globale Geschichte der Philosophie',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/wie-die-welt-denkt/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
